@@ -1,6 +1,6 @@
 # What is this?
 
-This is essentially a python implementation of [waldoj's instant-api](https://github.com/waldoj/instant-api), but with a few handy bonus features. It creates a basic RESTful web service using a JSON file as source. 
+This is essentially a python implementation of [Waldo Jaquith's instant-api](https://github.com/waldoj/instant-api), but with a few handy bonus features. It creates a basic RESTful web service using a JSON file as source. 
 
 # Usage
 
