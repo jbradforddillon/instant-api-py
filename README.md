@@ -50,6 +50,9 @@ To retrieve this:
 }
 ```
 
-# Copyright
+# Licensing and Contact
 
-Copyright [Brad Dillon (@jbradforddillon)](http://twitter.com/jbradforddillon), 2013. MIT License. Inspired by [Waldo Jaquith](https://github.com/waldoj)
+MIT License.
+Find me [on twitter (@jbradforddillon)](http://twitter.com/jbradforddillon).
+
+Inspired by [Waldo Jaquith](https://github.com/waldoj)
