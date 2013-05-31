@@ -49,3 +49,7 @@ To retrieve this:
 	"hex" : "#00FF00"
 }
 ```
+
+# Copyright
+
+Copyright [Brad Dillon (@jbradforddillon)](http://twitter.com/jbradforddillon), 2013. MIT License. Inspired by [Waldo Jaquith](https://github.com/waldoj)
