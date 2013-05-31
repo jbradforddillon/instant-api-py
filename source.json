@@ -1,0 +1,20 @@
+{
+	"name" : "Dexter Morgan",
+	"family" : [
+		"Deb Morgan",
+		"Harry Morgan",
+		"Harrison Morgan"
+	],
+	"friends" : [
+		{
+			"name" : "Angel Batista",
+			"family" : [
+				"Jamie Batista"
+			]
+		},
+		{
+			"name" : "Vince Masuka",
+			"family" : null
+		}
+	]
+}
