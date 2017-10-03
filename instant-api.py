@@ -18,12 +18,6 @@ args = parser.parse_args().__dict__
 file_arg = args['filename'] or "source.json"
 port_arg = args['port'] or "8080"
 
-try:
-    content = json.loads(open(file_arg).read())
-except IOError:
-    print "Couldn't find file '%s'" % file_arg
-    sys.exit()
-
 port = 8080 if port_arg is None else int(port_arg)
 
 
@@ -37,7 +31,12 @@ class InstantAPIServer(BaseHTTPRequestHandler):
         path = self.path[1:]
         components = string.split(path, '/')
 
-        node = content
+        try:
+            node = json.loads(open(file_arg).read())
+        except IOError:
+            print "Couldn't find file '%s'" % file_arg
+            sys.exit()
+
         for component in components:
             if len(component) == 0 or component == "favicon.ico":
                 continue
